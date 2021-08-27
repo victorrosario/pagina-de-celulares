@@ -1,0 +1,25 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+header{
+    margin-top: 75px;
+}
+
+.navbar-brand {
+    color: crimson !important; 
+    font-size: 200%;
+}
+
+
+#testimonial{
+    background: #f1f1f1;
+    padding: 50px 0 30px 0;  /* 50px hacia arriba , 0 px hacia la derecha , 30px hacia abajo y 0 px hacia la izquierda */
+    text-align: center;
+    margin-top: 40px;
+   
+}
+
+footer{
+    background: url(../img/smartphones.png);
+}

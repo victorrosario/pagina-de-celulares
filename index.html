@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>bootstrap website</title>
+    <!-- GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+    <!-- bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- SCROOLL REVEAL-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- CUSTOM CSS-->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <!--NAVBAR-->
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    
+    <div class="container">
+        
+        <a class="navbar-brand" href="#">VR</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto" >
+      <li class="nav-item active">
+        <a class="nav-link" href="#header">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#info-one">about</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">contact</a>
+      </li>
+      
+    </ul>
+  </div>
+    </div>
+  
+</nav>
+   
+<!--HEADER-->
+   
+   <header id="header">
+       <div class="container mt-5">
+           
+           <div class="row">
+               
+               <div class="col-md-6">
+                   <div class="header-content-left">
+                       <img src="img/image1.png" style="width: 100%">
+                   </div>
+               </div>
+               
+               <div class="col-md-6">
+                   <div class="header-content-right">
+                       <h1 class="display-4">Lorem ipsum dolor.</h1>
+                       <p class="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aut dolores, eveniet. Esse fugit corrupti, laborum velit tempora facere culpa quibusdam explicabo quasi maxime? Fuga odio voluptates dignissimos necessitatibus voluptatem!</p>
+                       <a href="#" class="btn btn-outline-secondary btn-lg mt-2 header-btn">Read More</a>
+                   </div>
+               </div>
+               
+               
+           </div>
+           
+           
+           
+       </div>
+       
+       
+       
+   </header>
+   
+   <!--TESTIMONIAL-->
+   
+   <section id="testimonial">
+       
+       <div class="container">
+           
+           <p class=" h2 mb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni dolore magnam at quibusdam, tempore, expedita possimus quos quasi natus tempora voluptate, quis delectus quod libero eveniet, fugiat necessitatibus fuga itaque!</p>
+           <p class="h4">- Victor Rosario</p>
+       </div>
+       
+   </section>
+   
+   <!--INFO-ONE-->
+   
+   <section id="info-one">
+      <div class="container">
+          <div class="row mt-5">
+             <div class="col-md-6">
+                 <div class="info-left">
+                     <img src="img/image2.png" style="width: 100%">
+                 </div>
+             </div> 
+              <div class="col-md-6 my-auto"> <!-- esta clase col es para crear una columna y my-auto es decirle el margen de las y es automatico--> 
+                 <div class="info-right">
+                     <h2>Lorem ipsum dolor sit.</h2>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint qui ad necessitatibus, quisquam omnis nam pariatur, deserunt minus perferendis quo quae facilis aut, dolor nostrum! Distinctio ut impedit reprehenderit quam!</p>
+                     <a href="#" class="btn btn-outline-secondary btn-lg">Read More</a>
+                    
+                 </div>
+             </div> 
+          </div>   <!-- el el div class row es para crear una fila-->
+          
+      </div>
+       
+   </section>
+   
+   <!--INFO-TWO-->
+   
+   <section id="info-two">
+      <div class="container">
+          <div class="row my-5">
+             <div class="col-md-6">
+                <h2>Lorem ipsum dolor.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae atque suscipit vero autem odio inventore quidem, tempora officia, itaque veritatis. Vitae dolor, dolore laudantium perspiciatis magnam aspernatur a excepturi quis!</p>
+                 
+             </div>
+              <div class="col-md-6">
+                <h2>Lorem ipsum dolor.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae atque suscipit vero autem odio inventore quidem, tempora officia, itaque veritatis. Vitae dolor, dolore laudantium perspiciatis magnam aspernatur a excepturi quis!</p>
+                 
+             </div>
+              
+          </div>
+      </div>
+       
+   </section>
+   
+   <!--CONTACT-->
+   
+   <footer id="contact">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-5">
+                  <form class="card my-4" action="index.html">
+                      <div class="card-body">
+                          <div class="form-group">
+                              <input type="text" placeholder="Name" class="form-control"> <!-- form-control es para estilizar los input-->
+                          </div>
+                          <div class="form-group">
+                              <input type="email" placeholder="Email" class="form-control"> <!-- form-control es para estilizar los input-->
+                          </div>
+                          <div class="form-gruop">
+                              <textarea  cols="30" rows="10" placeholder="Message" class="form-control"></textarea>
+                          </div>
+                          <button type="submit" class=" btn btn-outline-secondary btn-block">Send</button>
+                      </div>
+                  </form>
+                   
+                   
+               </div> <!--columnas-->
+           </div> <!--fila-->
+       </div>
+   </footer>
+    
+  
+    
+      
+        
+<!-- bootstrap 4 scripts -->
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+<!-- SCRIPTS-->
+
+<script>
+   window.sr = ScrollReveal();
+    sr.reveal('.navbar',{
+        duration: 4000,
+        origin : 'botton'
+    });
+    
+      window.sr = ScrollReveal();
+    sr.reveal(".header-content-left",{
+        duration: 2000,
+        origin : 'top',
+        distance : '300px'
+    });
+        
+      window.sr = ScrollReveal();
+    sr.reveal(".header-content-right",{
+        duration: 2000,
+        origin : 'right',
+        distance : '300px'
+    });
+        
+     window.sr = ScrollReveal();
+    sr.reveal(".header-btn",{
+        duration: 2000,
+        origin : 'botton',
+        delay: 1000
+    });
+    
+     window.sr = ScrollReveal();
+    sr.reveal("#testimonial",{
+        duration: 2000,
+        origin : 'left',
+        distance : '300px',
+        viewFactor : 0.2
+    });
+        
+    
+   
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+    
+    
+    </script>
+</body>
+</html>
